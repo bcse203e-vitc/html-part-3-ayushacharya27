@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Company Organization Hierarchy</title>
+ <style>
+  th {
+    background-color: red;
+    color: white;
+  }
+ </style>
+</head>
+<body>
+ <h1>Company Organization Hierarchy</h1>
+ <table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Department Organization</strong></caption>
+  <thead>
+   <tr>
+    <th>Department Name</th>
+    <th>Manager</th>
+    <th>Number of Employees</th>
+    <th>Budget ($)</th>
+    <th>Percentage of Total Budget (%)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr style="background-color: #f2f2f2;">
+    <td rowspan="2">Engineering</td>
+    <td>virat kohli</td>
+    <td>50</td>
+    <td>rs 5,00,000</td>
+    <td rowspan="2">25%</td>
+   </tr>
+   <tr style="background-color: #dff0d8;">
+    <td>rohit sharma</td>
+    <td>45</td>
+    <td>rs 4,50,000</td>
+   </tr>
+   <tr style="background-color: #f9f2f4;">
+    <td>HR</td>
+    <td>kapil dev</td>
+    <td>10</td>
+    <td>rs 1,00,000</td>
+    <td>5%</td>
+   </tr>
+   <tr style="background-color: #f2f2f2;">
+    <td>Marketing</td>
+    <td>messi</td>
+    <td>20</td>
+    <td>rs 2,00,000</td>
+    <td>10%</td>
+   </tr>
+   <tr style="background-color: #dff0d8;">
+    <td rowspan="3">Sales</td>
+    <td>ronaldo</td>
+    <td>30</td>
+    <td>rs 3,00,000</td>
+    <td rowspan="3">15%</td>
+   </tr>
+   <tr style="background-color: #f2f2f2;">
+    <td>rishab pant</td>
+    <td>25</td>
+    <td>rs 2,50,000</td>
+   </tr>
+   <tr style="background-color: #f9f2f4;">
+    <td>sunil chettri</td>
+    <td>20</td>
+    <td>rs 2,00,000</td>
+   </tr>
+  </tbody>
+  <tfoot>
+   <tr>
+    <td colspan="5" style="text-align: right;"><strong>Total Budget: rs 20,00,000</strong></td>
+   </tr>
+  </tfoot>
+ </table>
+</body>
+</html>
