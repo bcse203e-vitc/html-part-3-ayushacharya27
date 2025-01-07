@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Conference Timetable</title>
+</head>
+<body>
+ <h1>Conference Timetable</h1>
+ <table border="1" cellspacing="0" cellpadding="5" width="100%">
+   <thead>
+     <tr style="background-color: #333; color: white;">
+       <th>Time</th>
+       <th>Room A</th>
+       <th>Room B</th>
+       <th>Room C</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>9:00 AM - 10:00 AM</td>
+       <td style="background-color: lightgreen;" title="Keynote: Dr. Jane Smith">Keynote</td>
+       <td colspan="2" style="background-color: lightblue;" title="Workshop on AI by John Doe">AI Workshop</td>
+     </tr>
+     <tr>
+       <td>10:15 AM - 11:15 AM</td>
+       <td style="background-color: lightyellow;" title="Panel Discussion on Climate Change">Climate Panel</td>
+       <td style="background-color: lightpink;" title="Cybersecurity Talk by Alex Johnson">Cybersecurity</td>
+       <td style="background-color: lightgrey;" title="Data Science Trends">Data Science</td>
+     </tr>
+     <tr>
+       <td rowspan="2">11:30 AM - 1:00 PM</td>
+       <td colspan="3" style="background-color: orange; color: white;" title="Innovations in Tech by Dr. Emily Brown">Tech Innovations</td>
+     </tr>
+     <tr></tr>
+     <tr>
+       <td>1:00 PM - 2:00 PM</td>
+       <td colspan="3" style="background-color: lightcoral; text-align: center;" title="Lunch Break">Lunch Break</td>
+     </tr>
+     <tr>
+       <td>2:00 PM - 3:00 PM</td>
+       <td style="background-color: lightyellow;" title="Blockchain Technology Talk by Michael Lee">Blockchain</td>
+       <td style="background-color: lightpink;" title="Python Workshop by Sarah Connor">Python Workshop</td>
+       <td style="background-color: lightgrey;" title="Future of Renewable Energy">Renewable Energy</td>
+     </tr>
+   </tbody>
+ </table>
+
+ <h3>Legend:</h3>
+ <ul>
+   <li style="background-color: lightgreen; padding: 5px;">Keynote</li>
+   <li style="background-color: lightblue; padding: 5px;">Workshop</li>
+   <li style="background-color: lightyellow; padding: 5px;">Panel</li>
+   <li style="background-color: lightpink; padding: 5px;">Talk</li>
+   <li style="background-color: lightgrey; padding: 5px;">Discussion</li>
+   <li style="background-color: orange; color: white; padding: 5px;">Special Session</li>
+   <li style="background-color: lightcoral; padding: 5px;">Lunch Break</li>
+ </ul>
+</body>
+</html>
